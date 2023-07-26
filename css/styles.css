@@ -493,20 +493,21 @@
         width: 71px;
         /* flex-direction: column;*/
         /* justify-content: center;*/
-        margin: 0 auto;
+
     }
 
     .footter-logo-link {
         color: var(--accent-color);
         display: inline-block;
-        margin-bottom: 17, 5px;
-        justify-content: center;
+        margin-bottom: 17.5px;
+        /*justify-content: center;*/
+        margin: 0 auto;
     }
 
     .footer-text {
         /* max-width: 264px;*/
         color: var(--light-color);
-        margin: 0 80px 72px 80px;
+
         font-weight: 500;
     }
 
