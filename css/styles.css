@@ -515,9 +515,14 @@
         /*  margin-right: 80px;*/
     }
 
+    .footer-social-text {
+        margin-bottom: 16px;
+    }
+
     .footer-social-list {
         display: flex;
         gap: 16px;
+        margin: 0 100px 72px 100px;
     }
 
     .footer-item {
