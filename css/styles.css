@@ -271,7 +271,8 @@
     .advantages-container {}
 
     .advantages-list {
-        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-direction: column;*/
         display: flex;
         gap: 24px;
     }
@@ -279,6 +280,7 @@
     .advantages-item {
         width: 100%;
         /* width: calc((100% - 24px * 3) / 4);*/
+        position: relative;
     }
 
     .advantages-subtitle {
@@ -1025,4 +1027,14 @@
             max-width: 728px;
             background-color: #31d0aa;
         }
-    }
+
+        .advantages {}
+
+        .advantages-item {
+            width: calc((100% - 16px * 1 / 2);
+            }
+
+            .advantages-list {
+                flex: wrap;
+            }
+        }
