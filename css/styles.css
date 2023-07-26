@@ -567,7 +567,7 @@
 
     .footer-input {
         display: block;
-        width: 264px;
+        width: 100%;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
