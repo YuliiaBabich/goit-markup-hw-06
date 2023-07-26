@@ -492,7 +492,8 @@
         color: var(--ligft-ir-color);
         width: 71px;
         /* flex-direction: column;*/
-        justify-content: center;
+        /* justify-content: center;*/
+        margin: 0 auto;
     }
 
     .footter-logo-link {
@@ -505,7 +506,7 @@
     .footer-text {
         /* max-width: 264px;*/
         color: var(--light-color);
-        margin-bottom: 16px;
+        margin: 0 80px 72px 80px;
         font-weight: 500;
     }
 
