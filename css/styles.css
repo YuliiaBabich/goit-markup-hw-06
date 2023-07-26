@@ -325,8 +325,9 @@
     .team-container {}
 
     .team {
+        padding: 96px 82px;
         background-color: var(--ligft-ir-color);
-        padding: 120px 0;
+        /* padding: 120px 0;*/
     }
 
     .team-title {
@@ -336,13 +337,12 @@
     .team-list {
         flex-wrap: wrap;
         display: flex;
-        gap: 24px;
+        gap: 72px;
         justify-content: center;
     }
 
     /*li всей карты*/
     .team-item {
-
         width: 100%;
         /* width: calc((100% - 3 * 24px) / 4);*/
         background-color: var(--light-color);
@@ -354,7 +354,8 @@
     }
 
     .team-img {
-        margin: 0 auto;
+        width: 100%;
+        /*  margin: 0 auto;*/
     }
 
     /*ul иконок*/
@@ -1051,6 +1052,10 @@
             gap: 72px;
         }
 
+        .team {
+            padding: 96px 108px;
+        }
+
         .team-item {
 
 
@@ -1103,9 +1108,11 @@
 
         }
 
+        .team {
+            padding: 120px 156px;
+        }
+
         .team-item {
-
-
             width: calc((100% - 3 * 24px) / 4);
 
         }
