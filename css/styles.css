@@ -353,7 +353,9 @@
             0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
-    .team-img {}
+    .team-img {
+        margin: 0 auto;
+    }
 
     /*ul иконок*/
     .team-card-social-list {
