@@ -498,7 +498,8 @@
     .footter-logo-link {
         color: var(--accent-color);
         display: inline-block;
-        margin-bottom: 16px;
+        margin-bottom: 17, 5px;
+        justify-content: center;
     }
 
     .footer-text {
