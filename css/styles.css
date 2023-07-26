@@ -272,7 +272,6 @@
 
     .advantages-list {
         flex-wrap: wrap;
-        /* flex-direction: column;*/
         display: flex;
         gap: 24px;
     }
@@ -286,6 +285,7 @@
     .advantages-subtitle {
         max-height: 24px;
         margin-bottom: 8px;
+        text-align: center;
     }
 
     .advantages-item-text {
@@ -1017,54 +1017,59 @@
     }
 
     @media screen and (min-width: 428px) {
-
         .container {
             max-width: 428px;
-
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .container {
-            max-width: 728px;
-        }
-
-        .advantages {}
-
-        .advantages-item {
-            width: calc((100% - 16px *2) / 3);
         }
 
         .advantages-list {
             gap: 72px;
         }
-    }
 
-    @media screen and (min-width: 1158px) {
-        .container {
-            max-width: 1158px;
+        .advantages-subtitle {
+            text-align: left;
         }
 
-        .advantages {
-            padding: 120px 0;
+        @media screen and (min-width: 768px) {
+            .container {
+                max-width: 728px;
+            }
+
+            .advantages-item {
+                width: calc((100% - 24px *2) / 3);
+            }
+
+            .advantages-list {
+                gap: 72px;
+            }
+
+
         }
 
-        .advantages-list {
-            display: flex;
-            gap: 24px;
-        }
+        @media screen and (min-width: 1158px) {
+            .container {
+                max-width: 1158px;
+            }
 
-        .advantages-item {
-            width: calc((100% - 24px * 3) / 4);
-        }
+            .advantages {
+                padding: 120px 0;
+            }
 
-        .advantages-block {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 112px;
-            border-radius: 4px;
-            background: var(--cloud, #F4F4FD);
-            margin-bottom: 8px;
+            .advantages-list {
+                display: flex;
+                gap: 24px;
+            }
+
+            .advantages-item {
+                width: calc((100% - 24px * 3) / 4);
+            }
+
+            .advantages-block {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 112px;
+                border-radius: 4px;
+                background: var(--cloud, #F4F4FD);
+                margin-bottom: 8px;
+            }
         }
-    }
