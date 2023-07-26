@@ -1027,3 +1027,9 @@
             max-width: 428px;
         }
     }
+
+    @media screen and (min-width: 768px) {
+        .container {
+            max-width: 500px;
+        }
+    }
