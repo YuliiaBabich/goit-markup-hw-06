@@ -92,7 +92,7 @@
 
     .text {
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
@@ -278,8 +278,7 @@
 
     .advantages-item {
         width: 100%;
-        /* width: calc((100% - 24px * 3) / 4);
-        position: relative;*/
+        /* position: relative;*/
     }
 
     .advantages-subtitle {
@@ -295,13 +294,6 @@
 
     .advantages-block {
         display: none;
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        border-radius: 4px;
-        background: var(--cloud, #F4F4FD);
-        margin-bottom: 8px;*/
     }
 
     .advantages-icons {}
@@ -341,13 +333,15 @@
     }
 
     .team-list {
+        flex-wrap: wrap;
         display: flex;
         gap: 24px;
     }
 
     /*li всей карты*/
     .team-item {
-        width: calc((100% - 3 * 24px) / 4);
+        width: 100%;
+        /* width: calc((100% - 3 * 24px) / 4);*/
         background-color: var(--light-color);
         border-radius: 0px 0px 4px 4px;
         box-shadow:
@@ -1071,6 +1065,10 @@
             width: calc((100% - 24px * 3) / 4);
         }
 
+        .advantages-item-text {
+            font-weight: 400;
+        }
+
         .advantages-block {
             display: flex;
             align-items: center;
@@ -1081,16 +1079,23 @@
             margin-bottom: 8px;
         }
 
+        .advantages-subtitle {
+            color: var(--color);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            margin-bottom: 8px;
 
-
-
+        }
     }
 
-    @media screen and (max-width: 1158px) {
-        .doing {
-            display: none;
-        }
+    @media screen and (max-width: 1158px) {}
 
-        .doing-container {}
+    .doing {
+        display: none;
+    }
+
+    .doing-container {}
 
     }
