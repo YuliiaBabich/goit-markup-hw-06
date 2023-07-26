@@ -16,8 +16,12 @@
 
     .doing-container {}
 
+    .footer {
+        /* padding: 96px 80px;*/
+    }
+
     .footer-text {
-        margin: 16px 80px 72px 80px;
+        /*  margin: 16px 80px 72px 80px;*/
 
     }
 

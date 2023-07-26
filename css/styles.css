@@ -470,7 +470,8 @@
 
     .footer {
         background-color: var(--color);
-        padding: 96px 80px;
+        padding-top: 96px;
+        padding-bottom: 96px;
 
     }
 
