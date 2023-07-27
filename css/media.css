@@ -345,7 +345,10 @@
 
 @media screen and (max-width: 1158px) {
 
-    .doing {}
+    .doing {
+        display: none;
+    }
+
 
     .doing-container {}
 }
