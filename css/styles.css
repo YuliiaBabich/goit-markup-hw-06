@@ -300,7 +300,7 @@
     .advantages-icons {}
 
     /*!-----------------------DOING------------------*/
-    .doing {
+    /* .doing {
         padding-bottom: 120px;
     }
 
@@ -319,7 +319,7 @@
         width: calc((100% - 48px) / 3);
     }
 
-    .doing-img {}
+    .doing-img {}*/
 
     /*----------------TEAM----------------*/
     .team-container {}
