@@ -470,11 +470,10 @@
 
     .footer {
         background-color: var(--color);
-        padding-top: 96px;
-        padding-bottom: 96px;
-
+        padding: 96px 0;
     }
 
+    /*
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -484,13 +483,15 @@
     .footer-text-container {
         /*  display: block;
         margin-right: 120px;*/
+    /*
     }
 
     .logo-accent.light {
         color: var(--ligft-ir-color);
         width: 71px;
         /* flex-direction: column;*/
-        /* justify-content: center;*/
+    /* justify-content: center;*/
+    /*
 
     }
 
@@ -500,6 +501,7 @@
         display: flex;
 
         /*justify-content: center;*/
+    /*
         margin: 0 auto;
     }
 
@@ -511,6 +513,7 @@
     .footer-social-container {
         display: block;
         /*  margin-right: 80px;*/
+    /*
     }
 
     .footer-social-text {
@@ -548,6 +551,7 @@
         fill: #f4f4fd;
         /*width: 24px;
         height: 24px;*/
+    /*
     }
 
     .footer-subscribe-container {
@@ -587,6 +591,7 @@
         padding: 8px 16px;
         /* margin-right: 24px;
         margin-bottom: 4px;*/
+    /*
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     }
 
@@ -603,6 +608,7 @@
         justify-content: center;
         align-items: center;
         /* gap: 16px;*/
+    /*
         border-radius: 4px;
         border: none;
         background-color: var(--accent-color);
@@ -627,7 +633,7 @@
         fill: #f4f4fd;
         margin-left: 16px;
     }
-
+*/
     /*----------------MODAL---------------*/
     .backdrop {
         position: fixed;

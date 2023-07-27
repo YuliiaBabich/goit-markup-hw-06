@@ -15,6 +15,11 @@
         /* padding: 96px 80px;*/
     }
 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer-text {
         /*  margin: 16px 80px 72px 80px;*/
     }
@@ -194,13 +199,15 @@
 
     }
 
+    /*?----------------FOOTER---------------*/
+
     .footer {
-        background-color: var(--color);
         padding: 100px 0;
     }
 
     .footer-container {
-        display: flex;
+
+        flex-direction: row;
         align-items: baseline;
     }
 
