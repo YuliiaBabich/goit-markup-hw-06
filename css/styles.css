@@ -231,6 +231,11 @@
 
     }
 
+    .hero-container {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
     .hero-title {
         color: var(--light-color);
         max-width: 320px;
@@ -240,8 +245,9 @@
         font-weight: 700;
         line-height: 1.11em;
         letter-spacing: 0.02em;
-        /* margin: 0 auto;
-        margin-bottom: 72px;*/
+        margin: 0 auto;
+        /* margin-top: 112px;*/
+        margin-bottom: 72px;
     }
 
     .hero-button {
