@@ -479,9 +479,14 @@
     }
 
     .footer-text-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: block;
+        margin: 0 auto;
+        /*justify-content: center;*/
+        min-width: 268px;
+    }
+
+    .footer-text-p {
+        margin: 16px 80px 72px 80px;
     }
 
     .logo-accent.light {
@@ -493,12 +498,12 @@
         color: var(--accent-color);
         width: 100%;
         display: flex;
-        margin: 0 auto;
+        justify-self: center;
     }
 
     .footer-text {
         color: var(--light-color);
-        font-weight: 500;
+
     }
 
     .footer-social-container {
@@ -507,6 +512,7 @@
 
     .footer-social-text {
         margin-bottom: 16px;
+        font-weight: 500;
     }
 
     .footer-social-list {
