@@ -228,25 +228,30 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-
+        padding: 112px 0;
+        margin: 0 auto;
     }
 
-    .hero-container {
-        padding-top: 112px;
-        padding-bottom: 112px;
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-bg-mob-2x.jpg);
+        }
     }
 
     .hero-title {
         color: var(--light-color);
         max-width: 320px;
-        /* height: 80px;*/
+        /*height: 80px;*/
         text-align: center;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11em;
         letter-spacing: 0.02em;
         margin: 0 auto;
-        /* margin-top: 112px;*/
         margin-bottom: 72px;
     }
 
