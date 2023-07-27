@@ -3,6 +3,7 @@
         max-width: 428px;
     }
 
+    /*!------------------------HERO------------------*/
     .advantages-list {
         gap: 72px;
     }
@@ -15,11 +16,15 @@
 
     }
 
+
+
+
     @media screen and (min-width: 768px) {
         .container {
             max-width: 728px;
         }
 
+        /*!------------------------HERO------------------*/
         .hero {
             /* max-width: 728px;*/
         }
@@ -73,11 +78,15 @@
 
 
 
+
+
+
     @media screen and (min-width: 1158px) {
         .container {
             max-width: 1158px;
         }
 
+        /*!------------------------HERO------------------*/
         .hero {
             background-color: var(--color);
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
