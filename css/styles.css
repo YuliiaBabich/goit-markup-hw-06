@@ -228,6 +228,7 @@
         height: 100vh;
         z-index: 10;
         padding: 24px 24px 40px 40px;
+        min-height: 798px;
     }
 
     .mob-menu-close-btn {
@@ -287,15 +288,33 @@
         margin-top: 284px;
     }
 
+    .mob-contacts-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
     .mob-contacts-link {
-        color: var(--accent-color);
-        font-size: 36px;
+        color: var(--add-color) font-size: 20px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 1.11em;
+        font-weight: 500;
+        line-height: 1.20em;
         letter-spacing: 0.02em;
         text-transform: capitalize;
     }
+
+    .mob-contacts-link-tel {
+        color: var(--accent-color);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+    }
+
+
+
+
+    font-style: normal;
+
+
+    letter-spacing: 0.02em;
 
     /*!------------------------HERO------------------*/
 
