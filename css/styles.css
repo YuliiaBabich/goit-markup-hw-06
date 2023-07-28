@@ -231,7 +231,7 @@
         height: 100vh;
         z-index: 10;
         padding: 24px 24px 40px 40px;
-        max-height: 798px;
+        /*  max-height: 798px;*/
     }
 
     .mob-menu-close-btn {
