@@ -236,14 +236,17 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        /* height: 100vh;*/
         z-index: 10;
         padding: 24px 24px 40px 40px;
-        /*  max-height: 798px;*/
+        max-height: 798px;
     }
 
     .mob-menu-close-btn {
-        display: block;
+        display: flex;
+        position: absolute;
+        flex-shrink: 0;
+        /* display: block;*/
         margin-left: auto;
         margin-bottom: 32px;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -253,20 +256,19 @@
         align-items: center;
         justify-content: center;
         background: transparent;
-        /* background-color: #e7e9fc;
+        background-color: #e7e9fc;
         padding: 0;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        opacity: 0.10000000149011612;
         cursor: pointer;
-        fill: var(--color);*/
+        fill: var(--color);
     }
 
-    /* .mob-menu-close-btn:hover,
+    .mob-menu-close-btn:hover,
     .mob-menu-close-btn:focus {
         background-color: #404bbf;
         border: none;
         fill: #ffffff
-    }*/
+    }
 
     /*   .modal-close-btn {
                 display: flex;      
@@ -281,9 +283,9 @@
             opacity: 0.10000000149011612;*/
     .mob-menu-list {}
 
-    /* .mob-menu-item:not(:last-child) {
+    .mob-menu-item:not(:last-child) {
         margin-bottom: 40px;
-    }*/
+    }
 
 
     .mob-menu-link {
