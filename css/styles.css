@@ -236,11 +236,9 @@
         top: 0;
         left: 0;
         width: 100vw;
-        /*  height: 100vh;*/
+        /* height: 100vh;*/
         z-index: 10;
         padding: 24px 24px 40px 40px;
-
-
         min-height: 798px;
     }
 
