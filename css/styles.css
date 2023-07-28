@@ -220,6 +220,9 @@
     .header-menu-open-btn {}
 
     .mob-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         position: fixed;
         background-color: #fff;
         top: 0;
@@ -285,7 +288,7 @@
     }
 
     .mob-contacts {
-        margin-top: 50px;
+        /* margin-top: 284px;*/
     }
 
     .mob-contacts-item:not(:last-child) {
