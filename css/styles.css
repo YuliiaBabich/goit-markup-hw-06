@@ -228,7 +228,7 @@
         height: 100vh;
         z-index: 10;
         padding: 24px 24px 40px 40px;
-        min-height: 798px;
+        /* min-height: 798px;*/
     }
 
     .mob-menu-close-btn {
@@ -328,28 +328,17 @@
         align-items: center;
         justify-content: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     }
 
-    /*.footer-social-container {
-       
- }
-
- .footer-social-link {
- }
-
- .footer-social-link:hover,
- .footer-social-link:focus {
-     background-color: #31d0aa;
- }
-
- .footer-social-icon {
-     fill: #f4f4fd;
-     /*width: 24px;
-        height: 24px;*/
+    .mob-social-link:hover,
+    .mob-social-link:focus {
+        background-color: #31d0aa;
     }
 
-    */
+    .mob-social-icon {
+        fill: #f4f4fd;
+    }
+
     /*!------------------------HERO------------------*/
 
     .hero {
