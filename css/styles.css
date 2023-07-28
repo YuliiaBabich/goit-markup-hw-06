@@ -221,6 +221,7 @@
 
     .header-menu-open-btn {
         margin-right: 24px;
+        border: none;
         background-color: #fff;
     }
 
