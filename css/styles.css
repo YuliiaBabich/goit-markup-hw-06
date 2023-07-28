@@ -162,6 +162,23 @@
         color: var(--iris-color);
     }
 
+
+
+    .header-adress {
+        font-style: normal;
+    }
+
+    .header-contacts {
+        display: none;
+    }
+
+    .header-contacts-link {}
+
+    .header-contacts-link:hover,
+    .header-contacts-link:focus {
+        color: var(--iris-color);
+    }
+
     .current {
         position: relative;
         color: var(--iris-color);
@@ -177,21 +194,6 @@
         bottom: -1px;
         left: 0;
         background: var(--ocean, #404BBF);
-    }
-
-    .header-adress {
-        font-style: normal;
-    }
-
-    .header-contacts {
-        display: none;
-    }
-
-    .header-contacts-link {}
-
-    .header-contacts-link:hover,
-    .header-contacts-link:focus {
-        color: var(--iris-color);
     }
 
     .header-contacts-item {

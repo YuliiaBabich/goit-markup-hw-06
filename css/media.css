@@ -65,9 +65,7 @@
                 color: var(--iris-color);
             }
 
-            .current {}
 
-            .current::after {}
 
             .header-menu-open-btn {
                 display: none;
