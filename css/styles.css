@@ -310,6 +310,7 @@
 
     .mob-social-list {
         display: flex;
+        margin-bottom: 48px;
         gap: 56px;
     }
 
