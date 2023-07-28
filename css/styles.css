@@ -236,17 +236,14 @@
         top: 0;
         left: 0;
         width: 100vw;
-        /* height: 100vh;*/
+        height: 100vh;
         z-index: 10;
         padding: 24px 24px 40px 40px;
-        max-height: 798px;
+        /*   max-height: 798px;*/
     }
 
     .mob-menu-close-btn {
-        display: flex;
-        position: absolute;
-        flex-shrink: 0;
-        /* display: block;*/
+        display: block;
         margin-left: auto;
         margin-bottom: 32px;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -270,23 +267,11 @@
         fill: #ffffff
     }
 
-    /*   .modal-close-btn {
-                display: flex;      
-                position: absolute;           
-        /*Ellipse 1 (close) width: 24px;
-            height: 24px;
-            flex-shrink: 0;
-            
-            fill: var(--cornflower, #E7E9FC);
-            stroke-width: 1px;
-            stroke: var(--navyblue, #2E2F42);
-            opacity: 0.10000000149011612;*/
     .mob-menu-list {}
 
     .mob-menu-item:not(:last-child) {
         margin-bottom: 40px;
     }
-
 
     .mob-menu-link {
         color: var(--color);
@@ -300,10 +285,6 @@
 
     .mob-contacts {
         /* margin-top: 284px;*/
-    }
-
-    .mob-contacts-item:not(:last-child) {
-        margin-bottom: 40px;
     }
 
     .mob-contacts-link {
