@@ -184,10 +184,13 @@
         margin-right: 24px;
     }
 
+    /*---------modal-----------*/
+    .modal {
+        width: 408px;
+    }
 
 
-
-
+    /*!--------------S C R E E N 1158 - - - -- -------*/
 
     @media screen and (min-width: 1158px) {
         .container {

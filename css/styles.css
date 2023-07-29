@@ -321,7 +321,7 @@
 
     /**-------------ADVANAGES---------------*/
     .advantages {
-        padding: 96px 16px;
+        padding: 96px 0;
     }
 
     .advantages-container {}
@@ -329,7 +329,7 @@
     .advantages-list {
         flex-wrap: wrap;
         display: flex;
-        gap: 24px;
+        gap: 72px;
     }
 
     .advantages-item {
@@ -338,14 +338,14 @@
     }
 
     .advantages-subtitle {
-        max-height: 24px;
+        /* max-height: 24px;*/
         margin-bottom: 8px;
         text-align: center;
     }
 
     .advantages-item-text {
         color: var(--add-color);
-        max-height: 72px;
+        /*  max-height: 72px;*/
 
     }
 
