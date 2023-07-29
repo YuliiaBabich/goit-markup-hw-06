@@ -141,8 +141,6 @@
         .advantages-item {
             width: 100%;
             width: calc((100% - 24px) / 2);
-
-
         }
 
         .advantages-text-block {
@@ -151,7 +149,6 @@
             max-height: 120px;
             margin-bottom: 72px;
         }
-
 
         /*!-----------------------TEAM------------------*/
 
@@ -301,6 +298,7 @@
 
         /*!-----------------------DOING------------------*/
         .doing {
+
             padding-bottom: 120px;
         }
 
@@ -320,6 +318,9 @@
         }
 
         .doing-img {}
+
+
+
 
         .team {
             padding: 120px 156px;
