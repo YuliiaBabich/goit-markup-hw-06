@@ -552,7 +552,7 @@
     }
 
     .footer-social-container {
-        display: flexbox;
+        display: flex;
     }
 
     .footer-social-text {
