@@ -366,7 +366,7 @@
     .team-container {}
 
     .team {
-        padding: 96px 82px;
+        padding: 96px 0;
         background-color: var(--ligft-ir-color);
     }
 
@@ -381,7 +381,6 @@
         justify-content: center;
     }
 
-    /*li всей карты*/
     .team-item {
         width: 100%;
         /* width: calc((100% - 3 * 24px) / 4);*/
@@ -397,7 +396,6 @@
         /*  margin: 0 auto;*/
     }
 
-    /*ul иконок*/
     .team-card-social-list {
         display: flex;
         gap: 24px;
@@ -405,8 +403,10 @@
     }
 
     .team-social-item {
-        width: 40px;
-        height: 40px;
+        width: calc((100% - 3 * 24px) / 4);
+        width: 100%;
+        /* width: 40px;
+          height: 40px;*/
     }
 
     .team-card-social-link {
