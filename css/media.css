@@ -132,18 +132,26 @@
             margin-bottom: 36px;
         }
 
-        .hero-button {}
-
-        .hero-button:hover,
-        .hero-button:focus {}
+        /**-----------ADVANTAGES---------*/
+        .advantages-list {
+            gap: 24px;
+            justify-content: space-evenly;
+        }
 
         .advantages-item {
-            width: calc((100% - 24px *2) / 3);
+            width: 100%;
+            width: calc((100% - 24px) / 2);
+
+
         }
 
-        .advantages-list {
-            gap: 72px;
+        .advantages-text-block {
+            /*  display: flex;*/
+            max-width: 356px;
+            max-height: 120px;
+            margin-bottom: 72px;
         }
+
 
         /*!-----------------------TEAM------------------*/
 

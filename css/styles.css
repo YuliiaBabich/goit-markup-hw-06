@@ -327,8 +327,8 @@
     .advantages-container {}
 
     .advantages-list {
-        flex-wrap: wrap;
         display: flex;
+        flex-wrap: wrap;
         gap: 72px;
     }
 
@@ -336,6 +336,8 @@
         width: 100%;
         position: relative;
     }
+
+
 
     .advantages-subtitle {
         /* max-height: 24px;*/
