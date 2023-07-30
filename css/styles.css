@@ -228,7 +228,6 @@
         font-size: 30px;
         font-weight: 700;
         line-height: 1.11em;
-
     }
 
     .mob-social-list {
@@ -263,7 +262,6 @@
     }
 
     /*!------------------------HERO------------------*/
-
     .hero {
         background-color: var(--color);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -436,7 +434,6 @@
 
     .team-subtitle {
         text-align: center;
-
     }
 
     .team-subtile-text {
@@ -606,7 +603,7 @@
     .footer-input {
         display: inline-flex;
         justify-content: center;
-        min-width: 264px;
+        min-width: 300px;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -618,6 +615,7 @@
         letter-spacing: 0.04em;
         padding: 8px 16px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        margin-left: 5px;
     }
 
     .footer-input::placeholder {
@@ -811,7 +809,6 @@
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-
     .modal-textarea:focus {
         border-color: var(--accent-color)
     }
@@ -829,7 +826,6 @@
         font-weight: 400;
         line-height: 1.17em;
         letter-spacing: 0.04em;
-
     }
 
     .modal-check-privacy-span {
@@ -845,16 +841,11 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-
-
     .modal-check:checked+.modal-check-text span {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
-
     }
-
-    .footer-check-icon {}
 
     .modal-privacy-link {
         color: var(--accent-color);
@@ -862,7 +853,6 @@
         line-height: 1.33em;
         text-decoration-line: underline;*/
     }
-
 
     /*  .check-text span {
         display: flex;
@@ -1065,7 +1055,6 @@
 
     .portfolio-card-subtitle:hover,
     .portfolio-card-subtitle:focus {}
-
 
     .portfolio-subile-link {
         transform: translateY(0);
