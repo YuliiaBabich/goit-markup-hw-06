@@ -511,6 +511,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        justify-content: center;
     }
 
     .footer-text-container {
@@ -551,6 +552,7 @@
     .footer-social-list {
         display: flex;
         gap: 16px;
+        justify-content: center;
         /*  margin-bottom: 72px;*/
     }
 
@@ -597,6 +599,7 @@
     .footer-form {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 16px;
     }
 
