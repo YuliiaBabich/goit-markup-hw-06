@@ -590,10 +590,6 @@
         align-items: center;
         width: 100%;
         color: #fff;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
         margin-bottom: 16px;
     }
 
@@ -604,7 +600,7 @@
     }
 
     .footer-input {
-        display: inline-flex;
+        display: block;
         justify-content: center;
         min-width: 300px;
         height: 40px;

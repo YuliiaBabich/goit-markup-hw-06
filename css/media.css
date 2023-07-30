@@ -203,8 +203,7 @@
     }
 
     .footer-form {
-        flex-wrap: nowrap;
-        gap: 24px;
+        flex-wrap: wrap;
     }
 
     .footer-subscribe-text {
@@ -216,7 +215,9 @@
     }
 
     .footer-input {
+        display: block;
         width: 264px;
+        margin-right: 24px;
     }
 
     /*?-----------------PORTFOLIO----------------*/
@@ -417,11 +418,15 @@
         padding: 100px 0;
     }
 
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
+
     .footer-text-container {
         display: block;
         margin-right: 120px;
     }
-
 
     .footer-social-container {
         display: block;
@@ -435,6 +440,14 @@
     .footer-subscribe-text {
         justify-content: flex-start;
     }
+
+    .footer-subscribe-container {
+        display: block;
+    }
+
+    .footer-form {}
+
+    .footer-input {}
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
