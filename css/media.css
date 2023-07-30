@@ -203,6 +203,11 @@
         margin-bottom: 0;
     }
 
+    .footer-form {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
     .footer-subscribe-text {
         justify-content: flex-start;
     }
