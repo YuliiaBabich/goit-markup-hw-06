@@ -1003,8 +1003,8 @@
 
     .portfolio-list-card {
         display: flex;
-        flex-direction: column;
-        gap: 48px;
+        flex-wrap: wrap;
+        row-gap: 48px;
     }
 
     .portfolio-card-container img {
