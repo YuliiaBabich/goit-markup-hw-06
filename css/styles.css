@@ -516,50 +516,80 @@
     .footer {
         background-color: var(--color);
         padding: 96px 0;
+        /* padding: 100px 0;*/
     }
 
     .footer-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /*+++++++++*/
+        /* align-items: baseline;
+          ---------------------*/
+        align-items: center;
+        /*+++++++++*/
+        width: 100%;
     }
 
     .footer-text-container {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-
+        margin-bottom: 72px;
+        /*++++++++++++++++*/
+        /*  display: flex;
+         margin-right: 120px;*/
+        /*--------+
+        -----------*/
+        /* align-items: center;
+        justify-content: center;*/
     }
 
     .logo-accent.light {
         color: var(--ligft-ir-color);
         /* width: 71px;
-        flex-direction: column;
-        justify-content: center;*/
+            flex-direction: column;
+            justify-content: center;*/
     }
 
     .footter-logo-link {
         color: var(--accent-color);
-        display: inline-block;
+        /* display: inline-block;*/
+        /*-----------------------*/
+        display: flex;
+        /*++++++++++*/
+        justify-content: center;
+        /*++++++++++*/
+        align-items: center;
+        /*++++++++++*/
         margin-bottom: 16px;
+
     }
 
     .footer-text {
         max-width: 264px;
         color: var(--light-color);
-        margin-bottom: 16px;
-        font-weight: 500;
+        /* margin-bottom: 16px;*/
+        /*-----------------*/
+        font-weight: 400;
+        /*font-weight: 500;*/
     }
 
     .footer-social-container {
-        display: block;
-        margin-right: 80px;
+        /*display: block;*/
+        /* margin-right: 80px;*/
+        /*------------------*/
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+        /*+++++++ x4stroki*/
     }
 
     .footer-social-list {
         display: flex;
         gap: 16px;
+        margin-bottom: 72px;
+        /*++++++++++++++++++*/
     }
 
     .footer-item {
@@ -586,7 +616,7 @@
     .footer-social-icon {
         fill: #f4f4fd;
         /*width: 24px;
-        height: 24px;*/
+            height: 24px;*/
     }
 
     .footer-subscribe-container {
@@ -594,6 +624,11 @@
     }
 
     .footer-subscribe-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /*+++++++++x4++++*/
         color: #fff;
         font-size: 16px;
         font-weight: 500;
@@ -604,12 +639,15 @@
 
     .footer-form {
         display: flex;
-        gap: 24px;
+        flex-wrap: wrap;
+        /*++++++++++*/
+        gap: 16px;
     }
 
     .footer-input {
-        display: block;
-        width: 264px;
+        margin: 0 auto;
+        display: inline-flex;
+        min-width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -621,7 +659,7 @@
         letter-spacing: 0.04em;
         padding: 8px 16px;
         /* margin-right: 24px;
-        margin-bottom: 4px;*/
+            margin-bottom: 4px;*/
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     }
 
@@ -662,10 +700,6 @@
         fill: #f4f4fd;
         margin-left: 16px;
     }
-
-
-
-
 
     /*----------------MODAL---------------*/
     .backdrop {
@@ -959,8 +993,6 @@
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
         padding: 48px 0;
-        /* padding-top: 96px;
-        padding-bottom: 120px;*/
     }
 
     .porfolio-container {}
@@ -972,8 +1004,6 @@
         row-gap: 16px;
         margin-bottom: 48px;
         justify-content: center;
-        /* margin-bottom: 72px;*/
-
     }
 
     .portfolio-nav-item {

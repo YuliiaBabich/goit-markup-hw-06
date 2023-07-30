@@ -198,8 +198,6 @@
             margin-bottom: 72px;
         }
 
-        /*?-------------------------------------------------*/
-
         /*?-----------------PORTFOLIO----------------*/
         .porfolio {
             padding-top: 64px;
@@ -207,33 +205,24 @@
         }
 
         .porfolio-list-nav {
+            flex-wrap: nowrap;
             margin-bottom: 64px;
         }
 
+        .portfolio-nav-item {
+            /*  width: calc((100% - 48px) / 3);*/
+        }
+
         .porfolio-container .portfolio-list-card {
-            display: flex;
-            flex-wrap: wrap;
             gap: 24px;
             row-gap: 72px;
         }
 
-        .portfolio-card-container img {
-            height: 1400px;
-        }
-
-        .portfolio-card-container {
-
-            padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
-        }
+        .portfolio-card-container img {}
 
         .portfolio-card-item {
             width: calc((100% - 48px) / 2);
         }
-
-
-
 
 
 
@@ -563,56 +552,23 @@
             }
 
             /*?-----------------PORTFOLIO----------------*/
+
             .porfolio {
                 padding-top: 100px;
                 padding-bottom: 120px;
             }
 
-            .porfolio-container {}
+            /* .portfolio-nav-item {
+                width: calc((100% - 48px) / 3);
+            }*/
 
             .portfolio-list-card {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 24px;
                 row-gap: 48px;
-
-                .portfolio-card-container img {
-                    height: 1400px;
-                }
-
-                .portfolio-card-container {
-
-                    padding: 32px 16px;
-                    border: 1px solid #e7e9fc;
-                    border-top: none;
-                }
-
-                .portfolio-card-item {
-                    width: calc((100% - 48px) / 3);
-                }
-
-                /*<picture>
-            коли потрвбно завузити контйнер приклад
-            .made > .container {
-                max-width: 650px;
-                а картинке дать ширину 100%                
             }
-            ПІД КОЖНИЙ КРАН СВОЕ ЗОБРАЖЕННЯ!!!!
-            когда разны рапзмры картинок а разных врсиях
-            -качам разны изображеения в 1х и 2х столько сколько размеров
-            в HTML
-          <picture>
-          <source
-         srcset="./wasser.jpg 1x, wasser-2x.jpg 2x"
-          media="min-width: 1166px" /> для уомп версии
-                  <source srcset="./wasser-tab.jpg 1x, wasser-tab-2x.jpg 2x"
-                  media="min-width: 768px" /> для планштной версии
-        <source srcset="./wasser-mob.jpg 1x, wasser-mob-2x.jpg 2x"
-        media="min-width: 320px або man-width: 768px" /> для мобильной врсии
-                 <img srcset="./images/what/computer.jpg 1x,
-         ./images/what/computer-2x.jpg 2x" src=" ./images/what/computer.jpg" alt=" computer"
-         width="360-по найширшому зображенню" height="300-прибрати" class="doing-img">
-      ! img краще брати найбільше за розмвром як правило планшетный вариант Й!
-        </picture>
 
-            -*/
+
+            .portfolio-card-container img {}
+
+            .portfolio-card-item {
+                width: calc((100% - 48px) / 3);
+            }
