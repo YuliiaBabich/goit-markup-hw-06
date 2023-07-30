@@ -967,9 +967,13 @@
 
     .porfolio-list-nav {
         display: flex;
-        justify-content: center;
-        margin-bottom: 72px;
+        flex-wrap: wrap;
         gap: 24px;
+        row-gap: 16px;
+        margin-bottom: 48px;
+        justify-content: center;
+        /* margin-bottom: 72px;*/
+
     }
 
     .portfolio-nav-item {
