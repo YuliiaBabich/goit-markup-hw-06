@@ -211,7 +211,9 @@
         margin-top: 72px;
     }
 
-    .footer-subscribe-text {}
+    .footer-input {
+        min-width: 264px;
+    }
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
