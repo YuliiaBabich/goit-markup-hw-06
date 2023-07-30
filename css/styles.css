@@ -530,10 +530,11 @@
     }
 
     .footer-text {
-        max-width: 264px;
+        width: 264px;
         max-height: 72px;
         color: var(--light-color);
         font-weight: 400;
+        margin-bottom: 16px;
     }
 
     .footer-social-container {
