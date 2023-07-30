@@ -454,22 +454,23 @@
         flex-wrap: nowrap;
         /* display: block;*/
 
-        .footer-input {}
-
-        /*?-----------------PORTFOLIO----------------*/
-        .porfolio {
-            padding-top: 100px;
-            padding-bottom: 120px;
-        }
-
-        .portfolio-list-card {
-            row-gap: 48px;
-            gap: 24px;
-        }
-
-        .portfolio-card-container img {}
-
-        .portfolio-card-item {
-            width: calc((100% - 48px) / 3);
-        }
     }
+
+    /*?-----------------PORTFOLIO----------------*/
+    .porfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .portfolio-list-card {
+        row-gap: 48px;
+        gap: 24px;
+    }
+
+    .portfolio-card-container img {}
+
+    .portfolio-card-item {
+        width: calc((100% - 24px*2) / 3);
+    }
+
+}
