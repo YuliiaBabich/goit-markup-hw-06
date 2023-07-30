@@ -185,6 +185,7 @@
 
     .footer-text-container {
         margin-right: 24px;
+        margin-bottom: 0;
     }
 
     .footter-logo-link {
@@ -196,7 +197,10 @@
 
     .footer-text {
         justify-content: flex-start;
+    }
 
+    .footer-social-container {
+        margin-bottom: 0;
     }
 
     .footer-subscribe-text {

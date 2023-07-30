@@ -531,11 +531,14 @@
 
     .footer-text {
         max-width: 264px;
+        max-height: 72px;
         color: var(--light-color);
         font-weight: 400;
     }
 
-    .footer-social-container {}
+    .footer-social-container {
+        margin-bottom: 72px;
+    }
 
     .footer-text {
         display: flex;
@@ -547,7 +550,7 @@
     .footer-social-list {
         display: flex;
         gap: 16px;
-        margin-bottom: 72px;
+        /*  margin-bottom: 72px;*/
     }
 
     .footer-item {
