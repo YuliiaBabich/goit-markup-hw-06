@@ -190,7 +190,6 @@
 
     .footter-logo-link {
         justify-content: flex-start;
-
     }
 
     .footer-text-social {}
@@ -217,7 +216,7 @@
     }
 
     .footer-input {
-        min-width: 264px;
+        width: 264px;
     }
 
     /*?-----------------PORTFOLIO----------------*/
