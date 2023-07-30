@@ -206,6 +206,10 @@
             padding-bottom: 96px;
         }
 
+        .porfolio-list-nav {
+            margin-bottom: 64px;
+        }
+
         .porfolio-container .portfolio-list-card {
             display: flex;
             flex-wrap: wrap;
