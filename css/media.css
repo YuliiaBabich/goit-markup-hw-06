@@ -7,17 +7,37 @@
     .advantages-list {
         gap: 72px;
     }
+}
 
-    .advantages-subtitle {
-        text-align: left;
+@media screen and (max-width: 428px) {
+    .mob-social-list {
+        gap: 30px;
     }
+
+    .mob-contacts-link-tel {
+        font-size: 26px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 766px) {
+    .footer-form {
+        width: 100%;
+    }
+
+    .footer-label {
+        width: 100%;
+    }
+
 }
 
 /*?---------S-C-R-E-E-N-768----------------*/
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 728px;
+        max-width: 766px;
     }
 
     /*----------------HEADER----------------*/
@@ -127,8 +147,12 @@
     }
 
     /**-----------ADVANTAGES---------*/
+    .advantages-subtitle {
+        text-align: left;
+    }
+
     .advantages-list {
-        gap: 24px;
+        gap: 72px 24px;
         justify-content: space-evenly;
     }
 
@@ -141,21 +165,26 @@
         /*  display: flex;*/
         max-width: 356px;
         max-height: 120px;
-        margin-bottom: 72px;
+        /*  margin-bottom: 72px;*/
     }
 
     /*----------------TEAM----------------*/
+
+    .team-container {
+        max-width: 582px;
+    }
+
     .team-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 64px 24px;
     }
 
     .team-item {
         min-width: 264px;
         max-width: 552px;
         /* width: calc((100% - 3 * 24px) / 4);*/
-        margin-bottom: 64px;
+        /*margin-bottom: 64px;*/
     }
 
     .team-card-social-list {
@@ -165,13 +194,16 @@
     }
 
     /*?----------------CUSTOMERS---------------*/
+    .customers-container {
+        max-width: 582px;
+    }
+
     .customers-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .customers-item {
         width: calc((100% - 24px*2) / 3);
-        margin-bottom: 72px;
     }
 
     /*?----------------FOOTER---------------*/
@@ -180,19 +212,27 @@
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
-        justify-content: center;
+        max-width: 582px;
+        align-content: center;
     }
 
     .footer-text-container {
         margin-right: 24px;
         margin-bottom: 0;
+        padding-left: 0;
+        justify-content: flex-start;
+
     }
+
 
     .footter-logo-link {
         justify-content: flex-start;
     }
 
-    .footer-text-social {}
+    .footer-text-social {
+        justify-content: flex-start;
+
+    }
 
     .footer-text {
         justify-content: flex-start;
@@ -211,13 +251,15 @@
     }
 
     .footer-subscribe-container {
+        width: 100%;
         margin-top: 72px;
+
     }
 
     .footer-input {
         display: block;
         width: 264px;
-        margin-right: 24px;
+        /* margin-right: 24px;*/
     }
 
     /*?-----------------PORTFOLIO----------------*/
@@ -412,6 +454,7 @@
     /*?----------------FOOTER---------------*/
     .footer-container {
         flex-wrap: nowrap;
+        max-width: 828px;
     }
 
     .footer {
@@ -426,6 +469,7 @@
     .footer-text-container {
         display: block;
         margin-right: 120px;
+        max-width: 264px;
     }
 
     .footter-logo-link {
@@ -434,12 +478,11 @@
 
     .footer-social-container {
         display: block;
-        margin-right: 80px;
+        margin-right: auto;
     }
 
     .footer-social-list {
         display: flex;
-        justify-content: space-between;
         gap: 16px;
     }
 
@@ -458,6 +501,7 @@
 
     .footer-subscribe-container {
         display: block;
+        margin-top: 0;
     }
 
     .footer-form {}

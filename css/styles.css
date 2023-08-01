@@ -32,9 +32,9 @@
         pointer-events: none;
     }
 
-    /*.no-scroll {
+    .no-scroll {
         overflow: hidden;
-    }*/
+    }
 
     main {
         flex-grow: 1;
@@ -117,6 +117,7 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        padding: 0;
     }
 
     /*----------------HEADER----------------*/
@@ -161,13 +162,13 @@
     }
 
     .header-menu-open-btn {
-        margin-right: 24px;
         border: none;
         background-color: #fff;
+        stroke: var(--color);
     }
 
     .mob-menu-close-btn {
-        display: block;
+        display: flex;
         margin-left: auto;
         margin-bottom: 32px;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -181,6 +182,7 @@
         padding: 0;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
+        stroke: var(--color);
         fill: var(--color);
 
     }
@@ -213,7 +215,10 @@
         margin-bottom: 40px;
     }
 
-    .mob-menu-link {}
+    .mob-menu-link:hover,
+    .mob-menu-link:focus {
+        color: var(--iris-color);
+    }
 
     .mob-contacts {}
 
@@ -225,7 +230,7 @@
 
     .mob-contacts-link-tel {
         color: var(--accent-color);
-        font-size: 30px;
+        font-size: 36px;
         font-weight: 700;
         line-height: 1.11em;
     }
@@ -464,14 +469,14 @@
     .customers-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 72px 16px;
     }
 
     .customers-item {
         width: calc((100% - 16px) / 2);
         /*  width: 190px;*/
         height: 88px;
-        margin-bottom: 72px;
+        /* margin-bottom: 72px;*/
     }
 
     .customers-link {
@@ -516,6 +521,7 @@
 
     .footer-text-container {
         margin-bottom: 72px;
+
     }
 
     .logo-accent.light {
@@ -531,21 +537,19 @@
     }
 
     .footer-text {
-        width: 264px;
-        max-height: 72px;
         color: var(--light-color);
         font-weight: 400;
-        margin-bottom: 16px;
     }
 
     .footer-social-container {
         margin-bottom: 72px;
     }
 
-    .footer-text {
+    .footer-text-social {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: var(--light-color);
         margin-bottom: 16px;
     }
 
@@ -606,7 +610,7 @@
     .footer-input {
         display: block;
         margin: 0 auto;
-        min-width: 300px;
+        width: 100%;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -672,8 +676,9 @@
 
     .modal {
         position: absolute;
-        min-width: 320px;
-        /* width: 408px;*/
+        /*min-width: 320px;*/
+        width: 100%;
+        max-width: 408px;
         min-height: 584px;
         top: 50%;
         left: 50%;
