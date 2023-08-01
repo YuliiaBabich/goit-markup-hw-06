@@ -209,24 +209,27 @@
     /*?----------------FOOTER---------------*/
 
     .footer-container {
+        padding: 0;
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
         max-width: 582px;
-        align-content: center;
+        /*align-content: center;*/
     }
 
     .footer-text-container {
         margin-right: 24px;
         margin-bottom: 0;
         padding-left: 0;
-        justify-content: flex-start;
-
+        justify-content: start;
+        align-items: flex-start;
+        max-width: 264px;
     }
 
 
     .footter-logo-link {
         justify-content: flex-start;
+
     }
 
     .footer-text-social {
@@ -454,7 +457,7 @@
     /*?----------------FOOTER---------------*/
     .footer-container {
         flex-wrap: nowrap;
-        max-width: 828px;
+        max-width: 1116px;
     }
 
     .footer {
@@ -512,6 +515,10 @@
 
         /* display: block;*/
 
+    }
+
+    .footer-form-btn {
+        margin: 0;
     }
 
     /*?-----------------PORTFOLIO----------------*/
