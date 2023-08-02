@@ -221,6 +221,11 @@
         color: var(--iris-color);
     }
 
+    .mob-menu-link-blue {
+        color: var(--iris-color);
+    }
+    }
+
     .mob-contacts {}
 
     .mob-contacts-item:not(:last-child) {
