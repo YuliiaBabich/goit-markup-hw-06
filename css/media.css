@@ -255,7 +255,6 @@
     }
 
     .footer-subscribe-container {
-        width: 100%;
         margin-top: 72px;
 
     }
@@ -265,6 +264,8 @@
         width: 264px;
         /* margin-right: 24px;*/
     }
+
+    . .footer-form-btn {}
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
