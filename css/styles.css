@@ -475,9 +475,7 @@
 
     .customers-item {
         width: calc((100% - 16px) / 2);
-        /*  width: 190px;*/
         height: 88px;
-        /* margin-bottom: 72px;*/
     }
 
     .customers-link {
@@ -522,7 +520,6 @@
 
     .footer-text-container {
         margin-bottom: 72px;
-
     }
 
     .logo-accent.light {
@@ -558,7 +555,6 @@
         display: flex;
         gap: 16px;
         justify-content: center;
-        /*  margin-bottom: 72px;*/
     }
 
     .footer-item {
@@ -584,8 +580,6 @@
 
     .footer-social-icon {
         fill: #f4f4fd;
-        /*width: 24px;
-            height: 24px;*/
     }
 
     .footer-subscribe-container {
@@ -623,7 +617,6 @@
         letter-spacing: 0.04em;
         padding: 8px 16px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
     }
 
     .footer-input::placeholder {

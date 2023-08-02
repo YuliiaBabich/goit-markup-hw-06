@@ -16,7 +16,6 @@
 
     .mob-contacts-link-tel {
         font-size: 26px;
-
     }
 }
 
@@ -30,7 +29,6 @@
     .footer-label {
         width: 100%;
     }
-
 }
 
 /*?---------S-C-R-E-E-N-768----------------*/
@@ -222,7 +220,6 @@
         margin-right: 24px;
         margin-bottom: 0;
         padding-left: 0;
-        /*  justify-content: start;*/
         align-items: flex-start;
         max-width: 264px;
     }
@@ -235,7 +232,6 @@
 
     .footer-text-social {
         justify-content: flex-start;
-
     }
 
     .footer-text {
@@ -256,16 +252,14 @@
 
     .footer-subscribe-container {
         margin-top: 72px;
-
     }
 
     .footer-input {
         display: block;
         width: 264px;
-        /* margin-right: 24px;*/
     }
 
-    . .footer-form-btn {}
+    .footer-form-btn {}
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
@@ -292,10 +286,7 @@
     .portfolio-card-item {
         width: calc((100% - 24px) / 2);
     }
-
 }
-
-
 
 /*!--------------S C R E E N 1158 - - - -- -------*/
 
@@ -509,10 +500,7 @@
         margin-left: 80px;
     }
 
-    .footer-subscribe-text {
-        /* justify-content: flex-start;
-        width: 445px;*/
-    }
+    .footer-subscribe-text {}
 
 
     .footer-form {}
