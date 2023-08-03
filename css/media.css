@@ -272,6 +272,7 @@
     .porfolio-list-nav {
         flex-wrap: nowrap;
         margin-bottom: 64px;
+        justify-content: center;
     }
 
     .porfolio-button {
