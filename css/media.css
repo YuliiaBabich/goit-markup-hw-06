@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 428px;
+        max-width: 426px;
     }
 
     /*!------------------------HERO------------------*/
@@ -207,7 +207,7 @@
     /*?----------------FOOTER---------------*/
 
     .footer-container {
-        padding: 0;
+        /*padding: 0;*/
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
@@ -236,6 +236,8 @@
 
     .footer-text {
         justify-content: flex-start;
+        max-width: 264px;
+
     }
 
     .footer-social-container {
@@ -271,6 +273,11 @@
         flex-wrap: nowrap;
         margin-bottom: 64px;
     }
+
+    .porfolio-button {
+        padding: 12px 24px;
+    }
+
 
     .portfolio-nav-item {
         /*  width: calc((100% - 48px) / 3);*/
@@ -490,7 +497,7 @@
     }
 
     .footer-text {
-        justify-content: flex-start;
+        /* justify-content: flex-start;*/
     }
 
     .footer-subscribe-container {
@@ -518,6 +525,10 @@
     .porfolio {
         padding-top: 100px;
         padding-bottom: 120px;
+    }
+
+    .porfolio-list-nav {
+        margin-bottom: 72px;
     }
 
     .portfolio-list-card {

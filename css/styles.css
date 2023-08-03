@@ -120,6 +120,10 @@
         padding: 0;
     }
 
+    address {
+        font-style: normal;
+    }
+
     /*----------------HEADER----------------*/
     .header {
         border-bottom: 1px solid #e7e9fc;
@@ -445,6 +449,7 @@
 
     .team-subtitle {
         text-align: center;
+        margin-bottom: 8px;
     }
 
     .team-subtile-text {
@@ -542,6 +547,9 @@
     .footer-text {
         color: var(--light-color);
         font-weight: 400;
+        max-width: 268px;
+        justify-content: center;
+
     }
 
     .footer-social-container {
@@ -954,10 +962,9 @@
     .porfolio-list-nav {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
-        row-gap: 16px;
+        gap: 16px 24px;
         margin-bottom: 48px;
-        justify-content: center;
+        /*justify-content: center;*/
     }
 
     .portfolio-nav-item {
@@ -967,7 +974,7 @@
     .porfolio-button {
         color: var(--accent-color);
         background-color: var(--ligft-ir-color);
-        padding: 12px 24px;
+        padding: 8px 16px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
